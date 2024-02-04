@@ -1,10 +1,10 @@
-# SimpleCloud: A Lightweight Dropbox Alternative
+# SimpleCloud: A Lightweight Dropbox
 
 ### Your Efficient, User-Friendly Cloud Storage Solution.
 
-Designed for speed and simplicity, SimpleCloud offers a streamlined alternative to Dropbox, focusing on essential features for individuals. Experience a clutter-free way to store, share, and manage your files.
+Designed for simplicity, SimpleCloud offers a streamlined alternative to Dropbox. Experience a clutter-free way to store, share, and manage your files.
 
-<p><strong>It is a mini Dropbox clone :)</strong></p>
+<p><strong>Mini Dropbox Clone Project :)</strong></p>
 
 ### Tech Stack
 
