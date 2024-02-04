@@ -1,6 +1,8 @@
-# SimpleCloud - A light weight DropBox
+# SimpleCloud: A Lightweight Dropbox Alternative
 
-SimpleCloud is cloud storage service that allows you to securely collaborate on your content anywhere, anytime. It is a mini Dropbox clone :)
+SimpleCloud: Your Efficient, User-Friendly Cloud Storage Solution. Designed for speed and simplicity, SimpleCloud offers a streamlined alternative to Dropbox, focusing on essential features for individuals. Experience a clutter-free way to store, share, and manage your files, all while enjoying lower costs and enhanced performance.
+
+<strong>It is a mini Dropbox clone :)</strong>
 
 - Clerk Auth
 - Firebase
