@@ -3,7 +3,7 @@ import { useState, type FC, use, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { DataTable } from "./DataTable";
-import { Columns } from "./Columns";
+import { TableColumns } from "./TableColumns";
 import { collection, orderBy, query } from "firebase/firestore";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { db } from "@/lib/firebase";
@@ -86,7 +86,7 @@ export const TableWrapper: FC<TableWrapperProps> = ({
       {loading ? (
         <TableLoading />
       ) : (
-        <DataTable columns={Columns} data={files} />
+        <DataTable columns={TableColumns} data={files} />
       )}
     </div>
   );

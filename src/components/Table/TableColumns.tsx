@@ -17,7 +17,7 @@ export const FileColorMap = {
   xlsx: "#217346",
 };
 
-export const Columns: ColumnDef<FileType>[] = [
+export const TableColumns: ColumnDef<FileType>[] = [
   {
     accessorKey: "type",
     header: "Type",

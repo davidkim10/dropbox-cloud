@@ -5,8 +5,8 @@ import { db } from "@/lib/firebase";
 import { collection, getDocs } from "firebase/firestore";
 import { TableWrapper } from "@/components/Table/TableWrapper";
 import type { FileType } from "@/types";
-import { DeleteModal } from "@/components/DeleteModal";
-import { RenameModal } from "@/components/RenameModal";
+import { DeleteModal } from "@/components/Modal/DeleteModal";
+import { RenameModal } from "@/components/Modal/RenameModal";
 interface pageProps {}
 
 const DashboardPage: FC<pageProps> = async ({}) => {

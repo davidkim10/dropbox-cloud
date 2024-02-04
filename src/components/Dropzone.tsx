@@ -2,7 +2,6 @@
 import { useState, FC } from "react";
 import DropzoneComponent from "react-dropzone";
 import toast from "react-hot-toast";
-import prettyBytes from "pretty-bytes";
 import {
   addDoc,
   collection,
@@ -10,10 +9,10 @@ import {
   serverTimestamp,
   updateDoc,
 } from "firebase/firestore";
+import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { useUser } from "@clerk/nextjs";
 import { db, storage } from "@/lib/firebase";
 import { cn } from "@/lib/utils";
-import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 
 export const Dropzone: FC = () => {
   const [loading, setLoading] = useState(false);
@@ -57,7 +56,7 @@ export const Dropzone: FC = () => {
     }
   };
 
-  const onDrop = (acceptedFiles: File[]) => {
+  const handleFileDrop = (acceptedFiles: File[]) => {
     acceptedFiles.forEach((file) => {
       const reader = new FileReader();
       reader.onabort = () => toast.error("File reading was aborted");
@@ -69,7 +68,7 @@ export const Dropzone: FC = () => {
     });
   };
   return (
-    <DropzoneComponent onDrop={onDrop}>
+    <DropzoneComponent onDrop={handleFileDrop}>
       {({
         getRootProps,
         getInputProps,

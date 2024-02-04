@@ -2,7 +2,7 @@ import type { FC } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { SignInButton, SignedOut, UserButton } from "@clerk/nextjs";
-import { ThemeToggler } from "./ThemeToggler";
+import { ThemeToggler } from "./Theme/ThemeToggler";
 
 interface HeaderProps {}
 
