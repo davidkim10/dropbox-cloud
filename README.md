@@ -1,3 +1,9 @@
+SimpleCloud is cloud storage service that allows you to securely collaborate on your content anywhere, anytime. It is a mini Dropbox clone :)
+
+
+https://github.com/davidkim10/simple-cloud-storage/assets/56006438/662c292c-d274-4374-8157-875a21b3f381
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
