@@ -1,12 +1,27 @@
+# SimpleCloud - A light weight DropBox
+
 SimpleCloud is cloud storage service that allows you to securely collaborate on your content anywhere, anytime. It is a mini Dropbox clone :)
 
+- Clerk Auth
+- Firebase
+- Firestore
+- NextJS
+- TypeScript
+- React
+- TailWind
+- ShadCn
+
+## Preview
 
 https://github.com/davidkim10/simple-cloud-storage/assets/56006438/662c292c-d274-4374-8157-875a21b3f381
 
+## Screenshots
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="./public/preview.webp">
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
