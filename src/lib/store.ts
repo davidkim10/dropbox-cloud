@@ -1,5 +1,4 @@
 import { create } from "zustand";
-// State management with Zustand
 
 interface AppState {
   isDeleteModalOpen: boolean;

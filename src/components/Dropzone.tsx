@@ -35,21 +35,19 @@ export const Dropzone: FC = () => {
         size: selectedFile.size,
       });
 
-      // Defines a reference (imageStorageRef) to a path in Firebase Storage where the file will be stored. This path includes the user's ID and the newly created document ID to ensure that the file is stored in a user-specific and document-specific location.
       const imageStorageRef = ref(
         storage,
         `users/${user.id}/files/${docRef.id}`
       );
 
-      // Calls uploadBytes to upload the file to Firebase Storage at the specified imageStorageRef. Once the upload is complete, it proceeds to get the download URL of the uploaded file.
       await uploadBytes(imageStorageRef, selectedFile);
       const downloadURL = await getDownloadURL(imageStorageRef);
+
       await updateDoc(doc(db, "users", user.id, "files", docRef.id), {
         downloadURL,
       });
       toast.success("File uploaded successfully", { id: toastId });
     } catch (error) {
-      console.log(error);
       toast.error("Failed to upload file", { id: toastId });
     } finally {
       setLoading(false);
