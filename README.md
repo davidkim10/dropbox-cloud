@@ -19,7 +19,8 @@ Designed for simplicity, SimpleCloud offers a streamlined alternative to Dropbox
 
 ## Preview
 
-https://github.com/davidkim10/simple-cloud-storage/assets/56006438/662c292c-d274-4374-8157-875a21b3f381
+https://github.com/davidkim10/dropbox-cloud/assets/56006438/a05321e5-a5e8-41fa-8010-088c72105dbf
+
 
 ## Screenshots
 
